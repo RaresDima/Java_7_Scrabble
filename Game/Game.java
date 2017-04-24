@@ -115,7 +115,7 @@ public class Game {
                 else {
                     System.out.print("Insufficient letters.\n");
                     sufficientLetters = false;
-                    break;
+                    continue;
                 }
             }
 
